@@ -16,10 +16,10 @@ ctx.fill();
 
 // Draw blue rectangle
 let blueRect = {
-  x: canvas.width - 120,
+  x: canvas.width - 110,
   y: canvas.height - 90,
   width: 120,
-  height: 90,
+  height: 60,
 };
 ctx.fillStyle = "blue";
 ctx.fillRect(blueRect.x, blueRect.y, blueRect.width, blueRect.height);
@@ -120,7 +120,7 @@ function handleMouseMove(e) {
     );
     ctx.fill();
   } else {
-    document.body.style.backgroundColor = "white"; // Default background color
+    document.body.style.backgroundColor = "white";
   }
 }
 
